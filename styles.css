@@ -133,4 +133,58 @@ h1, h2, h3, h4, h5, h6 {
   height: 15rem; /* 240px */
 }
 
+.info-section{
+  display: flex;
+  gap:1.063rem;
+  height: 1.75rem; /* 28px */
+  margin: 2rem 1.163rem 10.9rem 1.12rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+/* CARD PROFILE PICTURES*/
+
+.card1-picture {
+  height: 1.75rem; /* 28px */
+  width: 1.75rem; /* 28px */
+  border-radius: 1.75rem;
+  border:2px solid #A775F1;
+  background: url(./images/image-daniel.jpg) lightgrey 50% /cover no-repeat;
+}
+
+.card2-picture {
+  height: 1.75rem; /* 28px */
+  width: 1.75rem; /* 28px */
+  border-radius: 1.75rem;
+  background: url(./images/image-jonathan.jpg) lightgrey 50% /cover no-repeat;
+}
+
+.card3-picture {
+  height: 1.75rem; /* 28px */
+  width: 1.75rem; /* 28px */
+  border-radius: 1.75rem;
+  background: url(./images/image-jeanette.jpg) lightgrey 50% /cover no-repeat;
+}
+
+.card4-picture {
+  height: 1.75rem; /* 28px */
+  width: 1.75rem; /* 28px */
+  border:2px solid #A775F1;
+  border-radius: 1.75rem;
+  background: url(./images/image-patrick.jpg) lightgrey 50% /cover no-repeat;
+}
+
+.card5-picture {
+  height: 1.75rem; /* 28px */
+  width: 1.75rem; /* 28px */
+  border-radius: 1.75rem;
+  background: url(./images/image-kira.jpg) lightgrey 50% /cover no-repeat;
+}
+
+
+
 
